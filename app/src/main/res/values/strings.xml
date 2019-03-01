@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">PsiTransLate</string>
+
+    <!--Base-->
+    <string name="psi_name">PsiWallet</string>
+
+    <!--title-->
+    <string name="Home_title">欢迎页</string>
+    <string name="Glossary_title">术语表</string>
+    <string name="User_title">用户</string>
+    <string name="User_sub_title_01">用户手册</string>
+    <string name="User_sub_title_02">常见问题</string>
+    <string name="Developer_title">开发人员</string>
+    <string name="Developer_sub_title">开发人员指南</string>
+    <string name="Security_title">安全</string>
+    <string name="Partner_title">合伙人</string>
+    <string name="FeedBack_title">反馈</string>
+    <string name="UsefulLink_title">有用链接</string>
+    <string name="Shop_title">商店</string>
+    <string name="Support_center_title">处理中心</string>
+    <string name="Psiwallet_io_title">PsiWallet.io</string>
+    <string name="Wallet_title">钱包</string>
+    <string name="Blog_title">博客</string>
+    <string name="twitter_title">Twitter</string>
+    <string name="faceBook_title">Facebook</string>
+    <string name="reddit_title">Reddit</string>
+
+
+    <!--home-->
+
+    <string name="home_acty_title">欢迎来到PwiWallet维基，一个综合了关于PsiWallet钱包和加密货币的技术性和非技术性的信息来源</string>
+    <string name="home_acty_user_title">供用户使用</string>
+    <string name="home_acty_user_sub_title">用户手册,常见问题</string>
+    <string name="home_acty_security_title">安全</string>
+    <string name="home_acty_security_sub_title">安全原则</string>
+    <string name="home_acty_developer_title">开发者</string>
+    <string name="home_acty_developer_sub_title">一体化，发币，自定义固件</string>
+    <string name="home_acty_busy_title">商业合作</string>
+    <string name="home_acty_busy_sub_title">附属公司，经销商</string>
+    <string name="home_acty_knowledge_title">知识</string>
+    <string name="home_acty_knowledge_sub_title">相关条款</string>
+
+
+
+    <!-- Glossary-->
+    <string name="Glossary_acty_title">术语表</string>
+    <string name="Glossary_acty_introduce">术语表是一本关于加密货币和PsiWallet相关词汇的字典</string>
+    <string name="Glossary_acty_commont_device_title">通用设备术语</string>
+    <string name="Glossary_acty_hardware_title">硬件和软件</string>
+    <string name="Glossary_acty_package">包装</string>
+    <string name="Glossary_acty_Accessories">附件</string>
+
+    <string name="Glossary_acty_Wallet">PsiWallet</string>
+    <string name="Glossary_acty_community">兼容性和沟通</string>
+    <string name="Glossary_acty_app">PsiWallet App</string>
+    <string name="Glossary_acty_ecosystem">PsiWallet生态系统</string>
+    <string name="Glossary_acty_development">PsiWallet发展</string>
+    <string name="Glossary_acty_development_Overview">概述</string>
+    <string name="Glossary_acty_development_support">支持的标准和要素</string>
+    <string name="Glossary_acty_development_Security_privacy">安全和隐私</string>
+    <string name="Glossary_acty_development_Changelogs">更新日志</string>
+
+    <string name="Glossary_acty_Cryptocurrencies_title">加密货币</string>
+    <string name="Glossary_acty_Cryptocurrencies_Common_terms">共同术语</string>
+    <string name="Glossary_acty_Cryptocurrencies_Coins">货币</string>
+    <string name="Glossary_acty_Cryptocurrencies_Risks_dangers">风险</string>
+    <string name="Glossary_acty_Cryptocurrencies_servers">服务</string>
+
+    <string name="Glossary_acty_General_technical_terms">一般技术术语</string>
+    <string name="Glossary_acty_Security">安全</string>
+
+</resources>

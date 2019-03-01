@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <RelativeLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/item_selected"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Home_title"
+            android:layout_marginLeft="15dp"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/glossary_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/item_selected"
+            android:layout_marginTop="2dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Glossary_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/item_selected"
+        >
+
+        <TextView
+            android:id="@+id/user_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/User_title"
+            android:layout_marginLeft="15dp"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/user_sub_title_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/User_sub_title_01"
+            android:layout_marginLeft="25dp"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_below="@+id/user_title"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/user_sub_title_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/User_sub_title_02"
+            android:layout_marginLeft="25dp"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_below="@id/user_sub_title_01"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/developer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:id="@+id/developer_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Developer_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/developer_sub_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Developer_sub_title"
+                android:layout_marginLeft="25dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:layout_below="@id/developer_title"
+                android:layout_marginTop="15dp"
+                />
+        </RelativeLayout>
+
+        <!--安全-->
+        <RelativeLayout
+            android:id="@+id/security_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Security_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <!--合伙人-->
+        <RelativeLayout
+            android:id="@+id/parterner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Partner_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+
+        <!--反馈-->
+
+        <RelativeLayout
+            android:id="@+id/feedback_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FeedBack_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <!--有用链接-->
+        <RelativeLayout
+            android:id="@+id/linked_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/UsefulLink_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <!--商店-->
+        <RelativeLayout
+            android:id="@+id/shop_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Shop_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <!--处理中心-->
+
+        <RelativeLayout
+            android:id="@+id/support_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Support_center_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <!--trezor.io-->
+        <RelativeLayout
+            android:id="@+id/trezor_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Psiwallet_io_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <!--Wallet-->
+
+        <RelativeLayout
+            android:id="@+id/wallet_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Wallet_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+        <!--博客-->
+        <RelativeLayout
+            android:id="@+id/blog_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Blog_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <!--Twitter-->
+
+        <RelativeLayout
+            android:id="@+id/twitter_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <!--脸书-->
+
+        <RelativeLayout
+            android:id="@+id/facebook_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faceBook_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reddit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/item_selected"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reddit_title"
+                android:layout_marginLeft="15dp"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
