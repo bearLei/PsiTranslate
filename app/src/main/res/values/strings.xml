@@ -119,4 +119,16 @@
     <string name="Glossary_acty_ecosystem_support">支持</string>
     <string name="Glossary_acty_ecosystem_company_introduce">公司简介</string>
 
+
+    <!--发展-->
+    <string name="Glossary_acty_develope_title">PsiWallet发展</string>
+    <string name="Glossary_acty_develope_overvier">概述</string>
+    <string name="Glossary_acty_develope_security_privacy">安全和隐私</string>
+    <string name="Glossart_acty_develope_changelogs">更新日志</string>
+    <string name="Glossart_acty_develope_coins">支持货币</string>
+    <string name="Glossart_acty_develope_coins_btc">Bitcoin(Btc)</string>
+    <string name="Glossart_acty_develope_coins_eth">Ethereum (ETH)</string>
+    <string name="Glossart_acty_develope_coins_erc20">ERC20 tokens</string>
+    <string name="Glossart_acty_develope_coins_eos">EOS.IO (EOS)</string>
+
 </resources>

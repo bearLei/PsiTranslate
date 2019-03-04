@@ -7,6 +7,7 @@ import android.widget.LinearLayout;
 import com.example.administrator.psitranslate.R;
 import com.example.administrator.psitranslate.glossary.holder.AccessoriesHolder;
 import com.example.administrator.psitranslate.glossary.holder.CommonDeviceTermsContanerHolder;
+import com.example.administrator.psitranslate.glossary.holder.DevolpeHolder;
 import com.example.administrator.psitranslate.glossary.holder.EcoSystemHolder;
 import com.example.administrator.psitranslate.glossary.holder.HardwareAndsoftwareContainerHolder;
 import com.example.administrator.psitranslate.glossary.holder.PackingHolder;
@@ -26,6 +27,8 @@ public class GlossaryActivity extends AppCompatActivity {
     LinearLayout accessoriesContaner;
     @BindView(R.id.ecosystem_contaner)
     LinearLayout ecosystemContaner;
+    @BindView(R.id.psi_develop_contaner)
+    LinearLayout psiDevelopContaner;
 
 
     private CommonDeviceTermsContanerHolder commonDeviceTermsContanerHolder;
@@ -33,6 +36,7 @@ public class GlossaryActivity extends AppCompatActivity {
     private PackingHolder packingHolder;
     private AccessoriesHolder accessoriesHolder;
     private EcoSystemHolder ecoSystemHolder;
+    private DevolpeHolder devolpeHolder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +48,7 @@ public class GlossaryActivity extends AppCompatActivity {
         initPackageHolder();
         initAccessoriesHolder();
         initEcoSystemHolder();
+        initDevelopHolder();
     }
 
     //hardwareAndsoftwareContainerHolder
@@ -83,11 +88,20 @@ public class GlossaryActivity extends AppCompatActivity {
     }
 
     //生态
-    private void initEcoSystemHolder(){
-        if (ecoSystemHolder == null){
+    private void initEcoSystemHolder() {
+        if (ecoSystemHolder == null) {
             ecoSystemHolder = new EcoSystemHolder(this);
         }
         ecosystemContaner.removeAllViews();
         ecosystemContaner.addView(ecoSystemHolder.getRootView());
+    }
+
+    //发展
+    private void initDevelopHolder(){
+        if (devolpeHolder == null){
+            devolpeHolder = new DevolpeHolder(this);
+        }
+        psiDevelopContaner.removeAllViews();
+        psiDevelopContaner.addView(devolpeHolder.getRootView());
     }
 }

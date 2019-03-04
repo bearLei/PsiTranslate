@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3"
+    >
+
+
+    <TextView
+        android:text="@string/Glossary_acty_develope_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#cdcdcd"
+        android:padding="15dp"
+        >
+
+    <TextView
+        android:id="@+id/Glossary_acty_development_Overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/base_87cd8f"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Glossary_acty_development_Overview"
+        />
+
+        <TextView
+            android:id="@+id/Glossary_acty_development_Security_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/base_87cd8f"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Glossary_acty_develope_security_privacy"
+            />
+        <TextView
+            android:id="@+id/Glossary_acty_development_Changelogs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/base_87cd8f"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Glossart_acty_develope_changelogs"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/base_333333"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Glossart_acty_develope_coins"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            >
+            <TextView
+                android:id="@+id/Glossart_acty_develope_coins_btc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/base_87cd8f"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Glossart_acty_develope_coins_btc"
+                />
+            <TextView
+                android:id="@+id/Glossart_acty_develope_coins_eth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/base_87cd8f"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Glossart_acty_develope_coins_eth"
+                />
+            <TextView
+                android:id="@+id/Glossart_acty_develope_coins_erc20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/base_87cd8f"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Glossart_acty_develope_coins_erc20"
+                />
+            <TextView
+                android:id="@+id/Glossart_acty_develope_coins_eos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/base_87cd8f"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Glossart_acty_develope_coins_eos"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
