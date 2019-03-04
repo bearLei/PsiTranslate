@@ -69,4 +69,54 @@
     <string name="Glossary_acty_General_technical_terms">一般技术术语</string>
     <string name="Glossary_acty_Security">安全</string>
 
+
+    <!--Common device terms -->
+    <string name="Glossary_acty_Common_device_terms_Operating_systems">操作系统</string>
+    <string name="Glossary_acty_Common_device_terms_Supported_cryptocurrencies">支持的加密货币</string>
+    <string name="Glossary_acty_Common_device_terms_Psi_Wallet">PsiWallet</string>
+    <string name="Glossary_acty_Common_device_terms_Compatibility">兼容性</string>
+    <string name="Glossary_acty_Common_device_terms_Android">安卓</string>
+    <string name="Glossary_acty_Common_device_terms_ChromeOS">ChromeOS</string>
+
+    <string name="Glossary_acty_Common_device_terms_IOS">iOS</string>
+    <string name="Glossary_acty_Common_device_terms_Linux">Linux</string>
+    <string name="Glossary_acty_Common_device_terms_macOS">macOS</string>
+    <string name="Glossary_acty_Common_device_terms_Windows">Windows</string>
+    <string name="Glossary_acty_Common_device_terms_Windows_Phone">Windows Phone</string>
+    <string name="Glossary_acty_Common_device_terms_Wallet_components">钱包组件</string>
+
+    <string name="Glossary_acty_Common_device_terms_Passphrase">口令短语</string>
+    <string name="Glossary_acty_Common_device_terms_Recovery_seed">恢复种子</string>
+    <string name="Glossary_acty_Common_device_terms_Protection_personalization">保护和个性化</string>
+    <string name="Glossary_acty_Common_device_terms_Name">名字</string>
+    <string name="Glossary_acty_Common_device_terms_pin">PIN</string>
+
+
+
+
+    <!--Hardware and software-->
+
+    <string name="Glossary_acty_hardware_and_software_title">硬件和软件</string>
+    <string name="Glossary_acty_hardware_and_software_model">钱包模型</string>
+    <string name="Glossary_acty_hardware_and_software_board">硬件模板</string>
+
+
+    <!--package-->
+    <string name="Glossary_acty_package_title">包装</string>
+    <string name="Glossary_acty_package_package">包装</string>
+
+
+    <!--附件-->
+    <string name="Glossary_acty_accessories_title">附件</string>
+    <string name="Glossary_acty_accessories_direction">说明书</string>
+
+
+    <!--生态-->
+    <string name="Glossary_acty_ecosystem_title">生态系统</string>
+    <string name="Glossary_acty_ecosystem_comminity">社区</string>
+    <string name="Glossary_acty_ecosystem_events">事件</string>
+    <string name="Glossary_acty_ecosystem_shop">商店</string>
+    <string name="Glossary_acty_ecosystem_support">支持</string>
+    <string name="Glossary_acty_ecosystem_company_introduce">公司简介</string>
+
 </resources>

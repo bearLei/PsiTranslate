@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomeActivity" />
-        <activity android:name=".GlossaryActivity"></activity>
+        <activity android:name=".glossary.GlossaryActivity"></activity>
     </application>
 
 </manifest>

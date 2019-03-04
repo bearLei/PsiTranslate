@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GlossaryActivity">
+    tools:context=".glossary.GlossaryActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -233,31 +233,40 @@
             android:layout_marginLeft="15dp"
             />
 
-
-        <TextView
-            android:text="@string/Glossary_acty_Wallet"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/Common_device_terms_contaner"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:textColor="#333333"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:layout_marginTop="15dp"
-            />
+            android:orientation="vertical"
+            ></LinearLayout>
 
-        <TextView
-            android:text="@string/Glossary_acty_commont_device_title"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/Hardware_software_contaner"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:textColor="#333333"
-            android:textSize="16sp"
-            android:layout_marginTop="15dp"
-            />
+            android:orientation="vertical"
+            ></LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/package_contaner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            ></LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/accessories_contaner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            ></LinearLayout>
 
-
+        <LinearLayout
+            android:id="@+id/ecosystem_contaner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            ></LinearLayout>
     </LinearLayout>
 
 </ScrollView>

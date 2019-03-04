@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.administrator.psitranslate.glossary.GlossaryActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -61,11 +63,14 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.home_layout, R.id.user_title, R.id.user_sub_title_01, R.id.user_sub_title_02, R.id.user_layout, R.id.developer_title, R.id.developer_sub_title, R.id.developer_layout, R.id.security_layout, R.id.parterner_layout, R.id.feedback_layout, R.id.linked_layout, R.id.shop_layout, R.id.support_layout, R.id.trezor_layout, R.id.wallet_layout, R.id.blog_layout, R.id.twitter_layout, R.id.facebook_layout, R.id.reddit_layout})
+    @OnClick({R.id.home_layout,R.id.glossary_layout, R.id.user_title, R.id.user_sub_title_01, R.id.user_sub_title_02, R.id.user_layout, R.id.developer_title, R.id.developer_sub_title, R.id.developer_layout, R.id.security_layout, R.id.parterner_layout, R.id.feedback_layout, R.id.linked_layout, R.id.shop_layout, R.id.support_layout, R.id.trezor_layout, R.id.wallet_layout, R.id.blog_layout, R.id.twitter_layout, R.id.facebook_layout, R.id.reddit_layout})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.home_layout:
                 JumpUtil.jump(this,HomeActivity.class);
+                break;
+            case R.id.glossary_layout:
+                JumpUtil.jump(this,GlossaryActivity.class);
                 break;
             case R.id.user_title:
                 break;
