@@ -58,6 +58,7 @@
             android:textSize="16sp"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
+            android:visibility="gone"
             />
         <TextView
             android:text="@string/Glossary_acty_hardware_title"
@@ -98,6 +99,7 @@
             android:textColor="@color/base_87cd8f"
             android:textSize="16sp"
             android:layout_marginTop="15dp"
+            android:visibility="gone"
             />
         <TextView
             android:text="@string/Glossary_acty_community"
@@ -118,6 +120,7 @@
             android:textColor="@color/base_87cd8f"
             android:textSize="16sp"
             android:layout_marginTop="15dp"
+            android:visibility="gone"
             />
 
         <TextView
@@ -169,6 +172,7 @@
             android:textSize="16sp"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
+            android:visibility="gone"
             />
 
         <TextView
@@ -200,6 +204,7 @@
             android:textSize="16sp"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
+            android:visibility="gone"
             />
         <TextView
             android:text="@string/Glossary_acty_Cryptocurrencies_Coins"
@@ -220,6 +225,7 @@
             android:textSize="16sp"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
+            android:visibility="gone"
             />
 
         <TextView
@@ -231,6 +237,7 @@
             android:textSize="16sp"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
+            android:visibility="gone"
             />
 
         <LinearLayout

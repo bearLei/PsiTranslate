@@ -31,7 +31,7 @@ public class GlossaryActivity extends AppCompatActivity {
     LinearLayout psiDevelopContaner;
 
 
-    private CommonDeviceTermsContanerHolder commonDeviceTermsContanerHolder;
+//    private CommonDeviceTermsContanerHolder commonDeviceTermsContanerHolder;
     private HardwareAndsoftwareContainerHolder hardwareAndsoftwareContainerHolder;
     private PackingHolder packingHolder;
     private AccessoriesHolder accessoriesHolder;
@@ -43,7 +43,7 @@ public class GlossaryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_glossary);
         ButterKnife.bind(this);
-        initCommonDeviceTermsContanerHolder();
+//        initCommonDeviceTermsContanerHolder();
         initHardwareAndsoftwareContainerHolder();
         initPackageHolder();
         initAccessoriesHolder();
@@ -61,13 +61,13 @@ public class GlossaryActivity extends AppCompatActivity {
     }
 
     //CommonDeviceTermsContanerHolder
-    private void initCommonDeviceTermsContanerHolder() {
-        if (commonDeviceTermsContanerHolder == null) {
-            commonDeviceTermsContanerHolder = new CommonDeviceTermsContanerHolder(this);
-        }
-        CommonDeviceTermsContaner.removeAllViews();
-        CommonDeviceTermsContaner.addView(commonDeviceTermsContanerHolder.getRootView());
-    }
+//    private void initCommonDeviceTermsContanerHolder() {
+//        if (commonDeviceTermsContanerHolder == null) {
+//            commonDeviceTermsContanerHolder = new CommonDeviceTermsContanerHolder(this);
+//        }
+//        CommonDeviceTermsContaner.removeAllViews();
+//        CommonDeviceTermsContaner.addView(commonDeviceTermsContanerHolder.getRootView());
+//    }
 
     //PackageHolder
     private void initPackageHolder() {

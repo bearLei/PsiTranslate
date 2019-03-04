@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/model"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/model"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/model"
+            >
+    <TextView
+        android:id="@+id/wallet_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Wallet_model_name"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+            <TextView
+                android:id="@+id/wallet_introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Wallet_model_introduce"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/parameter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Wallet_Technical_specification"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Wallet_Technical_specification_size"
+                    android:textSize="14sp"
+                    android:textColor="@color/base_333333"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Wallet_Technical_specification_weight"
+                    android:textSize="14sp"
+                    android:textColor="@color/base_333333"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Wallet_Technical_specification_and_so_on"
+                    android:textSize="14sp"
+                    android:textColor="@color/base_333333"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

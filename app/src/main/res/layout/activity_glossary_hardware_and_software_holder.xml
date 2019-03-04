@@ -23,6 +23,16 @@
         android:background="#cdcdcd"
         android:padding="15dp"
         >
+        <TextView
+            android:id="@+id/Glossary_acty_hardware_holder_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/base_87cd8f"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Glossary_acty_hardware_and_software_overview"
+            />
     <TextView
         android:id="@+id/Glossary_acty_hardware_holder_models"
         android:layout_width="wrap_content"
@@ -43,5 +53,29 @@
         android:layout_marginTop="10dp"
         android:text="@string/Glossary_acty_hardware_and_software_board"
         />
+        <TextView
+            android:id="@+id/Glossary_acty_hardware_and_software_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/base_87cd8f"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:text="@string/Glossary_acty_hardware_and_software_android"
+            />
+
+        <TextView
+            android:id="@+id/Glossary_acty_hardware_and_software_ios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/base_87cd8f"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:text="@string/Glossary_acty_hardware_and_software_ios"
+            />
+
     </LinearLayout>
 </LinearLayout>

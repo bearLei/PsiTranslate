@@ -41,7 +41,6 @@
     <string name="home_acty_knowledge_sub_title">相关条款</string>
 
 
-
     <!-- Glossary-->
     <string name="Glossary_acty_title">术语表</string>
     <string name="Glossary_acty_introduce">术语表是一本关于加密货币和PsiWallet相关词汇的字典</string>
@@ -92,14 +91,14 @@
     <string name="Glossary_acty_Common_device_terms_pin">PIN</string>
 
 
-
-
     <!--Hardware and software-->
 
     <string name="Glossary_acty_hardware_and_software_title">硬件和软件</string>
+    <string name="Glossary_acty_hardware_and_software_overview">概述</string>
     <string name="Glossary_acty_hardware_and_software_model">钱包模型</string>
     <string name="Glossary_acty_hardware_and_software_board">硬件模板</string>
-
+    <string name="Glossary_acty_hardware_and_software_android">安卓版本</string>
+    <string name="Glossary_acty_hardware_and_software_ios">IOS版本</string>
 
     <!--package-->
     <string name="Glossary_acty_package_title">包装</string>
@@ -130,5 +129,28 @@
     <string name="Glossart_acty_develope_coins_eth">Ethereum (ETH)</string>
     <string name="Glossart_acty_develope_coins_erc20">ERC20 tokens</string>
     <string name="Glossart_acty_develope_coins_eos">EOS.IO (EOS)</string>
+
+
+    <!--********************翻译二级页面**************************-->
+
+    <!--钱包介绍-->
+    <string name="Wallet_introduce_name">PsiWallet</string>
+    <string name="Wallet_introduce_introduce">PsiWallet是一款移动端轻钱包App,包含客户端和硬件2端，冷热钱包结合，它旨在为普通用户提供一款安全放心、简单好用、功能强大的数字资产钱包应用。</string>
+    <string name="Wallet_introduce_support">支持的客户端</string>
+    <string name="Wallet_introduce_support_android">Android</string>
+    <string name="Wallet_introduce_support_ios">IOS</string>
+
+    <!--钱包模型-->
+    <string name="Wallet_model_name">PsiWallet</string>
+    <string name="Wallet_model_introduce">PsiWallet是最新款的硬件钱包，轻巧便携，操作简单，页面简洁，良好的用户体验性和安全性</string>
+    <string name="Wallet_Technical_specification">参数</string>
+
+    <string name="Wallet_Technical_specification_size">大小                    	64x39x10mm</string>
+    <string name="Wallet_Technical_specification_weight">重量                    	22g</string>
+    <string name="Wallet_Technical_specification_and_so_on">补充</string>
+
+    <!--硬件模板-->
+    <string name="Wallet_board_name">主板</string>
+    <string name="Wallet_board_introduce">上图是PsiWallet硬件钱包的主板图，采用....技术</string>
 
 </resources>

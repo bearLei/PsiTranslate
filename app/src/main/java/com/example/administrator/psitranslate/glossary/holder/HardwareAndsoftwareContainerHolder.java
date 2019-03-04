@@ -6,7 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.administrator.psitranslate.JumpUtil;
 import com.example.administrator.psitranslate.R;
+import com.example.administrator.psitranslate.glossary.BoardActivity;
+import com.example.administrator.psitranslate.glossary.ModelActivity;
+import com.example.administrator.psitranslate.glossary.WalletIntroduceActivity;
 import com.example.administrator.psitranslate.holder.BaseHolder;
 
 import butterknife.BindView;
@@ -19,6 +23,10 @@ public class HardwareAndsoftwareContainerHolder extends BaseHolder<Object> {
     TextView GlossaryActyHardwareHolderModels;
     @BindView(R.id.Glossary_acty_hardware_and_software_board)
     TextView GlossaryActyHardwareAndSoftwareBoard;
+    @BindView(R.id.Glossary_acty_hardware_and_software_android)
+    TextView GlossaryActyHardwareAndSoftwareAndroid;
+    @BindView(R.id.Glossary_acty_hardware_and_software_ios)
+    TextView GlossaryActyHardwareAndSoftwareIos;
 
     public HardwareAndsoftwareContainerHolder(Context context) {
         super(context);
@@ -37,12 +45,22 @@ public class HardwareAndsoftwareContainerHolder extends BaseHolder<Object> {
 
     }
 
-    @OnClick({R.id.Glossary_acty_hardware_holder_models, R.id.Glossary_acty_hardware_and_software_board})
+
+    @OnClick({R.id.Glossary_acty_hardware_holder_overview,R.id.Glossary_acty_hardware_holder_models, R.id.Glossary_acty_hardware_and_software_board, R.id.Glossary_acty_hardware_and_software_android, R.id.Glossary_acty_hardware_and_software_ios})
     public void onViewClicked(View view) {
         switch (view.getId()) {
+            case R.id.Glossary_acty_hardware_holder_overview:
+                JumpUtil.jump(mContext,WalletIntroduceActivity.class);
+                break;
             case R.id.Glossary_acty_hardware_holder_models:
+                JumpUtil.jump(mContext,ModelActivity.class);
                 break;
             case R.id.Glossary_acty_hardware_and_software_board:
+                JumpUtil.jump(mContext,BoardActivity.class);
+                break;
+            case R.id.Glossary_acty_hardware_and_software_android:
+                break;
+            case R.id.Glossary_acty_hardware_and_software_ios:
                 break;
         }
     }
