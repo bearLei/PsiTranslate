@@ -75,6 +75,7 @@
                     android:text="@string/Wallet_Technical_specification_weight"
                     android:textSize="14sp"
                     android:textColor="@color/base_333333"
+                    android:visibility="gone"
                     />
 
             </LinearLayout>

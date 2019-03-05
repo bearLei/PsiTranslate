@@ -102,6 +102,7 @@
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView

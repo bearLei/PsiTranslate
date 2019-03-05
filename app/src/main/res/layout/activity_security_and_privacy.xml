@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".glossary.SecurityAndPrivacyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/base_333333"
+        android:textStyle="bold"
+        android:text="@string/Develope_Security_Privacy_describe_title"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/base_333333"
+        android:lineSpacingExtra="3dp"
+        android:text="@string/Develope_Security_Privacy_describe_01"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/base_333333"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginTop="15dp"
+        android:text="m / 44' / 0' / 1' / 1 / 33"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/base_333333"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/Develope_Security_Privacy_describe_02"
+        />
+</LinearLayout>

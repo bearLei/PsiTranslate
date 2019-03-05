@@ -145,7 +145,19 @@
     <string name="Wallet_model_introduce">PsiWallet是最新款的硬件钱包，轻巧便携，操作简单，页面简洁，良好的用户体验性和安全性</string>
     <string name="Wallet_Technical_specification">参数</string>
 
-    <string name="Wallet_Technical_specification_size">大小                    	64x39x10mm</string>
+    <string name="Wallet_Technical_specification_size">尺寸：Size: 32mm x 75mm x 10.8mm.
+
+Weight: 16.2g.
+
+支持平台：Android（5.1+）IOS（9+）
+
+处理器：安全芯片
+
+安全等级：CCELA5+
+
+蓝牙:BLE/3.0
+
+电池:100mA锂电池 </string>
     <string name="Wallet_Technical_specification_weight">重量                    	22g</string>
     <string name="Wallet_Technical_specification_and_so_on">补充</string>
 
@@ -153,4 +165,96 @@
     <string name="Wallet_board_name">主板</string>
     <string name="Wallet_board_introduce">上图是PsiWallet硬件钱包的主板图，采用....技术</string>
 
+
+    <!--安全和隐私-->
+    <string name="Develope_Security_Privacy_describe_title">硬化和非硬化衍生物</string>
+    <string name="Develope_Security_Privacy_describe_01">BIP32衍生物有两种可能的类型，硬化型和非硬化型。
+        在标准的BIP32路径表示法中，特定级别上的硬化派生由撇号表示。
+        例如，下面的示例对前三个级别使用了硬化的派生，而对最后两个级别使用了非硬化的派生.
+       </string>
+    <string name="Develope_Security_Privacy_describe_02">
+        对于非硬化密钥，您可以仅使用公钥证明子公钥与父公钥链接。
+    您还可以从公共父密钥派生公共子密钥，从而支持只支持手表的钱包。使用强化的子密钥，您无法证明子公钥与父公钥链接。
+    出于安全原因，使用硬化的秘钥更安全，但也有使用非硬化的用例。
+    父扩展公钥和非增强子私钥可以公开父私钥。这意味着扩展公钥必须比常规公钥得到更仔细的处理。
+    这也是硬化秘钥存在的原因，也是为什么将它们用于树中的account级别的原因。
+    这样，特定于帐户(或以下)的私钥泄漏永远不会危及主帐户或其他帐户。
+    </string>
+
+    <!--币介绍-->
+    <!--Btc-->
+    <string name="Develope_Coin_btc_title">Bitcoin (BTC)</string>
+    <string name="Develope_Coin_btc">比特币(Bitcoin)是第一种分散的数字货币或加密货币。
+        比特币网络是点对点的，交易直接在用户之间进行，没有中间人。
+        交易通过一个节点网络进行验证，并通过一个名为挖掘的过程包含在一个名为区块链的公共分类账中。
+        比特币是由一个不知名的人或一群人以中本聪(Satoshi Nakamoto)的名义发明的，并于2009年作为开源软件发布</string>
+    <!--Eth-->
+    <string name="Develope_Coin_eth_title">Ethereum (ETH)</string>
+    <string name="Develope_Coin_eth">Ethereum (ETH)是一种加密货币，通过一种称为Solidity的图灵完备脚本语言支持智能契约功能。
+        Ethereum网络于2015年7月30日上线。Ethereum的开发是通过网络众筹的方式进行的，
+        在该网络上线之前，共有1,190万枚ETH硬币被分发</string>
+
+    <!--eos-->
+    <string name="Develope_Coin_eos_title">EOS.IO (EOS)</string>
+    <string name="Develope_Coin_eos">EOS.IO是一个由本地加密货币EOS支持的区块链协议</string>
+    <!--erc20-->
+    <string name="Develope_Coin_erc20_title">ERC20 tokens</string>
+    <string name="Develope_Coin_erc20">ERC20令牌是基于成功的ERC20令牌标准在Ethereum上创建的自定义用户加密货币。
+        目前，市面上有超过65,000个ERC20代币，其中大部分都没有市场价值。
+        高级Ethereum用户可以快速方便地创建一个新的ERC20令牌，并从一开始就在Ethereum钱包中获得新的令牌支持的优势。
+        这也是ERC20令牌在ICOs和crowdsales中被广泛使用的原因。</string>
+
+
+    <!--用户问题-->
+    
+    <string name="User_FAQ_Question01_title">什么是硬件钱包? PsiWallet是如何工作的</string>
+    <string name="User_FAQ_Question01_des">硬件钱包是一种特殊类型的安全设备，允许用户存储他们的加密货币资产。
+        PsiWallet是一个安全轻巧的加密货币硬件钱包。
+        它使您能够进行安全的支付和管理加密货币，而不会将任何敏感信息暴露给可能受到攻击的计算机。</string>
+    <string name="User_FAQ_Question02_title">PsiWallet支持哪些设备和操作系统?</string>
+    <string name="User_FAQ_Question02_des">PsiWallet设备兼容Android操作系统和iOS操作系统</string>
+    <string name="User_FAQ_Question03_title">目前支持哪些硬币?</string>
+    <string name="User_FAQ_Question03_des">PsiWallet支持包括比特币、Ethereum (+ all ERC20令牌)、eos</string>
+
+    <string name="User_FAQ_Question04_title">如何购买PsiWallet?</string>
+    <string name="User_FAQ_Question04_des">购买方式</string>
+    <string name="User_FAQ_Question05_title">我可以在亚马逊上订购PsiWallet吗</string>
+    <string name="User_FAQ_Question05_des">当然，对于想购买PsiWallet设备的客户来说，另一个好去处是亚马逊。我们的官方经销商名单可以在这里找到。</string>
+    <string name="User_FAQ_Question09title">如果我决定不需要，可以退货吗?</string>
+    <string name="User_FAQ_Question09_des">你可以改变主意。
+假设你买了PsiWallet。它是交付给您的，但您最终决定不需要它。别担心，你可以寄回去，我们会把钱还给你的。
+您可以在收到产品后15天内退货并要求退款。如需更多信息，请联系我们的支持团队，我们将提供所有必要的信息。</string>
+
+    <!--用户手册-->
+    <string name="User_manual_step_5_start">用3个步骤开始</string>
+    <string name="User_manual_step_5_start_01">1 拆开包装</string>
+    <string name="User_manual_step_5_start_01_desc">当您收到PsiWallet包裹的时候，里面会含有 硬件设备，说明书，数据线，助记词卡片
+        请仔细检查您的包裹，确认是否有遗漏
+    </string>
+    <string name="User_manual_step_5_start_02">2 前往应用中心下载App</string>
+    <string name="User_manual_step_5_start_02_desc">当确认包裹无误的时候，请下载PsiWallet App,
+        Android用户前往GooglePlay搜索PsiWallet，苹果用户前往AppStore搜索PsiWallet.
+    </string>
+
+    <string name="User_manual_step_5_start_03">3初始化设备</string>
+    <string name="User_manual_step_5_start_03_desc">打开App,设置手势密码。点击添加硬件设备，请按照如下步骤进行初始化
+        1：打开手机蓝牙同时长按设备按钮开机
+        2：在搜索到的蓝牙设备中找到PsiWallet设备进行配对
+        3：配对成功，输入Pin码（注意，Pin码在之后硬件钱包的使用中都会涉及到，请妥善保存）
+        4：设备屏幕上会出依次出现12个助记单词，助记单词是用来生成秘钥的，根据助记单词可以找回丢失的钱包，请妥善保存
+        5：确认助记单词，钱包生成完毕
+    </string>
+    <string name="User_manual_step_5_start_04">4转账</string>
+    <string name="User_manual_step_5_start_04_desc">
+        打开App主页面，选择要转账的币种进入币种详情页；
+        在币种详情页面点击转账进入转账页面；
+        输入转账金额，输入矿工费点击确认；
+        通过蓝牙连接设备，输入Pin码；
+        硬件设备屏幕会显示转账信息，确认无误后完成转账；
+    </string>
+    <string name="User_manual_step_5_start_05">5接收</string>
+    <string name="User_manual_step_5_start_05_desc">
+        打开App主页面，选择要转账的币种进入币种详情页；
+        使用PsiWallet App软件扫码该二维码即可得到钱包地址
+    </string>
 </resources>

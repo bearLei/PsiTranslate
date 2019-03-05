@@ -20,7 +20,9 @@
         <activity android:name=".glossary.GlossaryActivity" />
         <activity android:name=".glossary.ModelActivity" />
         <activity android:name=".glossary.BoardActivity" />
-        <activity android:name=".glossary.WalletIntroduceActivity"></activity>
+        <activity android:name=".glossary.WalletIntroduceActivity" />
+        <activity android:name=".glossary.SecurityAndPrivacyActivity" />
+        <activity android:name=".glossary.CoinActivity"></activity>
     </application>
 
 </manifest>
