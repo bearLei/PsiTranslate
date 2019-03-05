@@ -157,6 +157,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -180,6 +181,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -201,6 +203,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -222,6 +225,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -244,6 +248,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -265,6 +270,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -286,6 +292,7 @@
             android:layout_height="50dp"
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
+            android:visibility="gone"
             android:background="@drawable/item_selected"
             >
 
@@ -297,6 +304,7 @@
                 android:textColor="#333333"
                 android:textSize="16sp"
                 android:textStyle="bold"
+                android:visibility="gone"
                 />
         </RelativeLayout>
         <!--博客-->
@@ -307,6 +315,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -329,6 +338,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -351,6 +361,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
@@ -371,6 +382,7 @@
             android:gravity="center_vertical"
             android:layout_marginTop="2dp"
             android:background="@drawable/item_selected"
+            android:visibility="gone"
             >
 
             <TextView
